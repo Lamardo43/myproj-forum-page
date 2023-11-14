@@ -5,41 +5,131 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="images/icon.svg" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+
     <title>Форум</title>
 </head>
 
 <body>
 <header>
-    <h1>Форум</h1>
+    <h1>Мужыцкий форум</h1>
 </header>
 <section>
     <aside>
-        <h2>Сайдбар</h2>
-        <p>Количество комментариев: <strong>30</strong></p>
-        <p>Последний комментарий:</p>
-        <div class="comment">
-            <p>Комментарий от: Иван Иванов</p>
-            <p>Дата: 14 ноября 2023</p>
-        </div>
+        <h2>Так же в топе:</h2>
+        <a class="sidebar" href="https://github.com/Lamardo43?tab=repositories">Голливудские технологии омоложения</a>
+        <a class="sidebar" href="https://github.com/Lamardo43?tab=repositories">Как избежать выпадения волос</a>
+        <a class="sidebar" href="https://github.com/Lamardo43?tab=repositories">Стоит ли перед Новым годом делать пластическую операцию</a>
+        <a class="sidebar" href="https://github.com/Lamardo43?tab=repositories">Влюбиться в себя</a>
+        <a class="sidebar" href="https://github.com/Lamardo43?tab=repositories">Диета Мэрилин: морковь и мороженое</a>
+        <a class="sidebar" href="https://github.com/Lamardo43?tab=repositories">Пять неактуальных косметологических процедур</a>
+        <a class="sidebar" href="https://github.com/Lamardo43?tab=repositories">Маникюр-провокация</a>
     </aside>
     <main>
-        <h2>Основной контент</h2>
-        <!-- Здесь разместите основной контент форума, например, список комментариев -->
-        <div class="comment">
-            <p>Комментарий от: Петр Петров</p>
-            <p>Дата: 13 ноября 2023</p>
-            <p>Текст комментария...</p>
+        <div class="forumPost">
+            <h2>Не могу не убираться дома - это болезнь?</h2>
+
+            <div class="forumPostText comment">
+                <div class="Author">
+                    <img src="images/profile.png">
+                    <p class="user">Вдова</p>
+                    <p class="forumPostTime">10 ноября 2023</p>
+                </div>
+                <p class="commentText">
+                    Девочки, помогите добрым советом, подозреваю, что у меня ОКР. Убираюсь дома ежедневно, даже если до
+                    этого
+                    училась, работала целый день и очень устала. Ничего не могу с собой поделать, не лягу спать, пока не
+                    помою все полы и не протру пыль во всей квартире. Иногда это занимает 5 часов в сутках, хотя
+                    квартира 33
+                    квадратных метра. Если весь день был напряженный, то чувства удовлетворения после уборки не
+                    наступает;
+                    все равно кажется, что дома грязно. Что мне делать? Это повод обратится к психиатру? На данный
+                    момент
+                    живу одна, не представляю что будет потом, когда появится семья. Мне 21 год, я очень страдаю от
+                    своих
+                    навязчивых мыслей. Окружающие не видят в этом проблемы и просто считают, что я хорошая хозяйка.
+                    Жених в
+                    восторге, говорит, как хорошо, что дома всегда чисто. Я очень от этого страдаю, хочется просто быть
+                    здоровой. Заранее спасибо за ваши ответы.
+                </p>
+            </div>
+
+
         </div>
-        <div class="comment">
-            <p>Комментарий от: Анна Сидорова</p>
-            <p>Дата: 12 ноября 2023</p>
-            <p>Текст комментария...</p>
+
+        <div class="comments">
+            <h2>Комментарии(5)</h2>
+
+            <div class="comment">
+                <div class="Author">
+                    <img src="images/tony.jpg">
+                    <p class="user">Тони Старк</p>
+                    <p class="forumPostTime">10 ноября 2023</p>
+                </div>
+                <p class="commentText">
+                    Вообще окр расцветает на почве тревожности<br>
+                    И тут не в уборке вопрос<br>
+                    Сходите лучше к психиатру, если есть возможность.
+                </p>
+            </div>
+            <div class="comment">
+                <div class="Author">
+                    <img src="images/witch.jpg">
+                    <p class="user">Алая ведьма</p>
+                    <p class="forumPostTime">11 ноября 2023</p>
+                </div>
+                <p class="commentText">
+                    Я всю жизнь ненавижу убирать.<br>
+                    По-моему это банальная лень.
+                </p>
+            </div>
+            <div class="comment">
+                <div class="Author">
+                    <img src="images/thor.jpg">
+                    <p class="user">Тор</p>
+                    <p class="forumPostTime">12 ноября 2023</p>
+                </div>
+                <p class="commentText">
+                    Это очень грустно(
+                </p>
+            </div>
+            <div class="comment">
+                <div class="Author">
+                    <img src="images/brus.jpg">
+                    <p class="user">Брюс</p>
+                    <p class="forumPostTime">14 ноября 2023</p>
+                </div>
+                <p class="commentText">
+                    Да все с вами нормально) прибираться каждый день понемногу нет в этом ничего ужасного)) Вы ж не
+                    ходите с тряпкой в руках и не выискиваете пятна на стенах? Хорошо когда дома чисто.
+                </p>
+            </div>
+            <div class="comment">
+                <div class="Author">
+                    <img src="images/loki.jpg">
+                    <p class="user">Локи</p>
+                    <p class="forumPostTime">14 ноября 2023</p>
+                </div>
+                <p class="commentText">
+                    Оо, это про меня! Только муж не доволен моими каждодневными уборками.
+                </p>
+            </div>
+
+            <a class="addComment" href="https://github.com/Lamardo43?tab=repositories">
+                <button>Прокомментировать</button>
+            </a>
+
         </div>
+
         <!-- Примеры комментариев -->
     </main>
 </section>
 <footer>
-    <p>&copy; 2023 Форум</p>
+    <p>&copy; 2023 Форум мужыков</p>
 </footer>
 </body>
 
