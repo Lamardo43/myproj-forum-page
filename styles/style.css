@@ -73,7 +73,7 @@ img {
     flex-direction: row;
 }
 
-.forumPostTime {
+.commentPostTime, .forumPostTime {
     color: grey;
 }
 
